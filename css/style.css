@@ -1,0 +1,24 @@
+.container{
+    margin: 0 auto;
+    background-color: aqua;
+    width: 1110px;
+}
+.img_slid{
+    width: 250px;
+    height: 250px;
+}
+.slider{
+    width: 250px;
+    height: 250px;
+    
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-line{
+    height: 250px;
+    width: 1000px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 0.5s;
+}
